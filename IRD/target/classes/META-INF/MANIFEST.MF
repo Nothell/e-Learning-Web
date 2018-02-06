@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: IRD
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Rohan
+Implementation-Vendor-Id: com.IRDMechAnalysis
+Build-Jdk: 1.8.0_144
+Implementation-URL: http://projects.spring.io/spring-boot/IRDeLearning
+ /
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
