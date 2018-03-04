@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 @ComponentScan
 public class UserService {
 
-	@Autowired
+	@Autowired 
 	private UserRepository userrepository;
 
 	public List<UserInfo> allUser() {

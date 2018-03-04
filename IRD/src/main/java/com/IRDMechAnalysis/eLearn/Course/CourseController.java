@@ -18,6 +18,11 @@ public class CourseController {
 
 	@Autowired
 	private CourseService courseservice;
+	
+	@RequestMapping("/api/hi")
+	public String testAngular() {
+		return "hello from spring boot";
+	}
 
 	@RequestMapping("/topics/{id}/courses")
 	public List<Course> getAllCourse(@PathVariable String id) {

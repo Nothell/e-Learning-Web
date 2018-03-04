@@ -14,7 +14,7 @@ public final class LoginController {
 	private LoginService loginservice;
 	
 	@PostMapping("/login")
-	public String Validate(@RequestBody UserInfo ui) {
+	public String Validate(@RequestBody UserInfo ui) { 
 		String check=loginservice.Validate(ui);
 		return check;
 	}
